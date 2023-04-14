@@ -6,7 +6,9 @@ function Skills() {
 				<ul className="mylists">
 					<li>Python, HTML, JavaScript, CSS</li>
 					<li>Express, Django, Flask</li>
-					<li>Node, React, Jest, npm, yarn</li>
+					<li>Node, nvm, Jest, npm, yarn</li>
+					<li>React, create-react-app, viteJs</li>
+					<li>Deploy, cloudfare Pages, workers, vercel</li>
 					<li>Tailwind, Bootstrap, styled components</li>
 					<li>Mongo, mongoose, SQL</li>
 					<li>Pandas, Openpyxl, JSON, BSON, Excel</li>

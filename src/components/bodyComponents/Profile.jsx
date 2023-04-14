@@ -1,6 +1,9 @@
 function Profile() {
 	return (
-		<section id="profile" className="min-h-screen flex flex-col space-y-4 md:space-y-16">
+		<section
+			id="profile"
+			className="min-h-screen flex flex-col space-y-4 md:space-y-16"
+		>
 			<div>
 				<h2>Ayush Chauhan</h2>
 				<h3>Full stack developer</h3>
@@ -20,6 +23,13 @@ function Profile() {
 					reach our goals together. Resourceful and not hesitant to look up
 					documentations and other learning sources to troubleshoot. Contributed
 					and worked in Charities and NGO during college and pandemic.
+				</p>
+				<p>
+					Full Stack Web Developer with experience in designing and
+					developing web applications. Proficient in HTML, CSS, JavaScript,
+					ReactJS, NodeJS, and MongoDB. Strong experience in developing RESTful
+					APIs and integrating third-party APIs. Passionate about learning new
+					technologies and frameworks.
 				</p>
 			</div>
 		</section>
