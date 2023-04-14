@@ -1,19 +1,19 @@
 function Profile() {
 	return (
-		<section id="profile">
+		<section id="profile" className="min-h-screen flex flex-col space-y-4 md:space-y-16">
 			<div>
 				<h2>Ayush Chauhan</h2>
-				<h2>Full stack developer</h2>
+				<h3>Full stack developer</h3>
 				<p>
 					<a href="mailto:ayush.chauhan0008@gmail.com">
-						Email-ID
+						Email-id : ayush.chauhan0008@gmail.com
 					</a>
 					<br />
 					+91 729 1001 389
 				</p>
 			</div>
 			<div>
-				<h2>Profile </h2>
+				<h2>About Me </h2>
 				<p>
 					I am a career driven, object-oriented person and a collaborative team
 					member. I have tremendous desire to learn, grow and try to help others

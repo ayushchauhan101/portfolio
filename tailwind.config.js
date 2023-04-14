@@ -6,7 +6,12 @@ export default {
   ],
   theme: {
     theme: {},
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'charlie-brown': "url('./src/img/charlie-brown.svg')",
+        'brick-wall': "url(./src/img/brick-wall.svg)"
+      }
+    },
   },
   plugins: [],
 }

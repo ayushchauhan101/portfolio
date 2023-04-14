@@ -1,6 +1,6 @@
 function Skills() {
 	return (
-		<div>
+		<div className="min-h-screen">
 			<section id="skills">
 				<h2>Skills</h2>
 				<ul className="mylists">

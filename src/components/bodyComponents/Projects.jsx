@@ -10,7 +10,7 @@ function ProjectLinks({ link }) {
 
 function Projects() {
 	return (
-		<div>
+		<div className="min-h-screen">
 			<section id="projects">
 			<h2>Projects</h2>
 			<div className="flex flex-col space-y-2">

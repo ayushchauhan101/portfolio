@@ -3,25 +3,32 @@ function HeaderButton(props) {
 }
 
 function Header() {
+
+	// empty function to not trigger click upon first render
+	function clickHandler(e){
+		
+	}
+
 	return (
 		<header>
 			<div className="header-div" >
-				<div className="mb-6 md:mb-10 mt-6 md:mt-12">
-					<h1>Pragma.com</h1>
+				<div>
+					<h1>Pragma</h1>
+					<p className="text-center">Built on react + vite + tailwind</p>
 				</div>
 
 				<div className="flex flex-col items-center">
 					<HeaderButton>
-						<a href="#profile">Go to Profile</a>
+						<a href="#profile" onClick={clickHandler}>Go to Profile</a>
 					</HeaderButton>
 					<HeaderButton>
-						<a href="#skills">Go to Skills</a>
+						<a href="#skills" onClick={clickHandler}>Go to Skills</a>
 					</HeaderButton>
 					<HeaderButton>
-						<a href="#projects">Go to Projects</a>
+						<a href="#projects" onClick={clickHandler}>Go to Projects</a>
 					</HeaderButton>
 					<HeaderButton>
-						<a href="#footer">Go to Footer</a>
+						<a href="#footer" onClick={clickHandler}>Go to Footer</a>
 					</HeaderButton>
 				</div>
 			</div>
