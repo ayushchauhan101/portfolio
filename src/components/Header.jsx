@@ -37,7 +37,7 @@ function Header() {
 						</a>
 					</HeaderButton>
 				</div>
-				<div className="collapse md:visible">
+				<div className="invisible md:visible">
 					<MenuBar />
 				</div>
 			</div>

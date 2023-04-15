@@ -16,7 +16,7 @@
 		@apply text-left text-2xl md:text-center md:text-4xl;
 	}
 	p {
-		@apply text-left text-lg md:text-center md:text-xl;
+		@apply text-left text-lg md:text-center md:text-xl dark:text-slate-200;
 	}
 	b {
 		@apply text-lg;
