@@ -8,4 +8,4 @@ function ProjectLinks({ link }) {
 	)
 }
 
-export default ProjectLinks;
+export default ProjectLinks
