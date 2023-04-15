@@ -1,4 +1,5 @@
 import MenuBar from "./HeaderComponents/MenuBar"
+import MobileMenuBar from "./HeaderComponents/MobileMenuBar"
 
 function Header() {
 	return (
@@ -10,6 +11,10 @@ function Header() {
 						<h1>Pragma</h1>
 						<p className="text-center">Built on react + vite + tailwind</p>
 					</section>
+				</div>
+				{/* Mobile Menu */}
+				<div className="md:invisible">
+					<MobileMenuBar />
 				</div>
 				{/* Dropdown Menu */}
 				<div className="collapse md:visible">
