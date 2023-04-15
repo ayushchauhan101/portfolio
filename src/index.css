@@ -33,6 +33,9 @@
 	.items {
 		@apply flex flex-col items-center justify-between md:flex-row;
 	}
+	.footer-list {
+		@apply flex flex-col items-center justify-between md:flex-row md:justify-between;
+	}
 	.mylists {
 		@apply list-outside list-disc;
 	}
