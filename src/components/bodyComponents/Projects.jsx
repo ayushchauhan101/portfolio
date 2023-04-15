@@ -1,12 +1,4 @@
-function ProjectLinks({ link }) {
-	return (
-		<button className="btn">
-			<a href={link} target="_blank">
-				Github
-			</a>
-		</button>
-	)
-}
+import ProjectLinks from "./GithubButton"
 
 function Projects() {
 	return (
