@@ -4,7 +4,7 @@ import MobileMenuBar from "./HeaderComponents/MobileMenuBar"
 function Header() {
 	return (
 		<header>
-			<div className="header-div">
+			<div className="header-div card">
 				{/* Title */}
 				<div>
 					<section id="home">

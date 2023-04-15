@@ -5,7 +5,7 @@ import Projects from "./bodyComponents/Projects";
 
 function Body() {
   return (
-    <div className="flex flex-col space-x-0 space-y-2 px-5">
+    <div className="body-div">
       <Profile />
       <Skills />
       <Projects />

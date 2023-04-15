@@ -2,10 +2,10 @@ import ProjectLinks from "./GithubButton";
 
 function Projects() {
   return (
-    <div className="min-h-screen">
+    <div className="card">
       <section id="projects">
         <h2>Projects</h2>
-        <div className="flex flex-col space-y-2">
+        <div className="flex flex-col space-y-2 ml-5">
           <div>
             <b>
               BlogSite <br />

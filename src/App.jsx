@@ -7,7 +7,7 @@ function App() {
 	return (
 		// global container
 		<div className="main  from-indigo-500 via-purple-500 to-pink-500 dark:bg-gradient-to-r">
-			<div className="mx-4 flex flex-col space-y-8 bg-white/50 dark:bg-slate-800/80">
+			<div className="mx-auto flex flex-col space-y-8 bg-white/50 dark:bg-slate-800/80 md:max-w-5xl">
 				<div className="m-2 mb-4 flex flex-col justify-between space-x-0 space-y-8 rounded-md p-1 md:m-8 md:mb-16 md:space-y-16 md:p-4">
 					<Header />
 					<JumpTo />
