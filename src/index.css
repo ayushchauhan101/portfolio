@@ -51,7 +51,10 @@
 	.header-div {
 		@apply flex
 		min-h-screen 
-		flex-col space-y-6
+		flex-col space-y-8
 		md:flex-row md:justify-between;
+	}
+	.menu-items {
+		@apply hover:bg-slate-400 hover:scale-105 transition duration-200
 	}
 }
