@@ -1,23 +1,34 @@
 import { Fragment } from "react"
 import { Menu } from "@headlessui/react"
-import { ChevronDownIcon } from "@heroicons/react/20/solid"
 
 import links from "./links"
+
+const arrowDown = (
+	<svg
+		xmlns="http://www.w3.org/2000/svg"
+		viewBox="0 0 24 24"
+		fill="currentColor"
+		className="drop-arrow"
+	>
+		<path
+			fillRule="evenodd"
+			d="M12.53 16.28a.75.75 0 01-1.06 0l-7.5-7.5a.75.75 0 011.06-1.06L12 14.69l6.97-6.97a.75.75 0 111.06 1.06l-7.5 7.5z"
+			clipRule="evenodd"
+		/>
+	</svg>
+)
 
 function MenuBar() {
 	return (
 		<Menu>
-			<Menu.Button className="min-w-full rounded-md bg-black p-1 text-2xl font-bold text-white shadow-black drop-shadow-xl dark:bg-slate-300 dark:text-black md:w-40">
+			<Menu.Button className="h-16 min-w-full rounded-md bg-black p-1 text-2xl font-bold text-white shadow-black drop-shadow-xl dark:bg-slate-300 dark:text-black md:w-40">
 				More
-				<ChevronDownIcon
-					className="-mr-1 ml-2 h-10 w-5 bg-black text-2xl font-bold text-white dark:bg-slate-300 dark:text-black"
-					aria-hidden="true"
-				/>
+				{arrowDown}
 			</Menu.Button>
 			<Menu.Items>
 				<Menu.Item>
 					{({ active }) => (
-						<div className="menu-items bg-slate-400/20 pb-1 text-center">
+						<div className="menu-items bg-slate-400/20 pb-1 text-center hover:scale-100">
 							<p className=" border-b-2 border-slate-800 text-center">
 								Ayush Chauhan
 							</p>
@@ -27,7 +38,7 @@ function MenuBar() {
 						</div>
 					)}
 				</Menu.Item>
-				<div className="mt-4 flex flex-col space-y-2">
+				<div className="mt-4 flex flex-col space-y-2 items-center">
 					{links.map((link) => (
 						<Menu.Item key={link.href} as={Fragment}>
 							{({ active }) => (
