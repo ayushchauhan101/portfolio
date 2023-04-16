@@ -21,7 +21,7 @@ const arrowDown = (
 function MenuBar() {
 	return (
 		<Menu>
-			<Menu.Button className="h-16 min-w-full rounded-md bg-black p-1 text-2xl font-bold text-white shadow-black drop-shadow-xl dark:bg-slate-300 dark:text-black md:w-40">
+			<Menu.Button className="h-16 min-w-full rounded-md bg-black p-1 my-4 text-2xl font-bold text-white shadow-black drop-shadow-xl dark:bg-slate-300 dark:text-black md:w-40">
 				More
 				{arrowDown}
 			</Menu.Button>

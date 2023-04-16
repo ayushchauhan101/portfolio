@@ -4,12 +4,11 @@ import MobileMenuBar from "./HeaderComponents/MobileMenuBar"
 function Header() {
 	return (
 		<header>
-			<div className="header-div card">
+			<div className="card header-div">
 				{/* Title */}
 				<div>
 					<section id="home">
 						<h1>Pragma</h1>
-						<p className="text-center">Built on react + vite + tailwind</p>
 					</section>
 				</div>
 				{/* Dropdown Menu */}
