@@ -7,10 +7,7 @@ import links from "./links"
 function MenuBar() {
 	return (
 		<Menu>
-			<Menu.Button
-				className="mt-5 h-12 min-w-full rounded-md bg-black text-2xl font-bold text-white 
-				dark:bg-slate-300 dark:text-black md:w-40"
-			>
+			<Menu.Button className="min-w-full rounded-md bg-black p-1 text-2xl font-bold text-white shadow-black drop-shadow-xl dark:bg-slate-300 dark:text-black md:w-40">
 				More
 				<ChevronDownIcon
 					className="-mr-1 ml-2 h-10 w-5 bg-black text-2xl font-bold text-white dark:bg-slate-300 dark:text-black"

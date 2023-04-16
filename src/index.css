@@ -31,10 +31,10 @@
 		@apply bg-white font-['Montserrat'] dark:bg-slate-900 dark:text-slate-300;
 	}
 	.background {
-		@apply mx-auto flex flex-col space-y-8 bg-white/50 dark:bg-slate-800 md:max-w-5xl;
+		@apply mx-auto flex flex-col dark:bg-slate-800 md:max-w-5xl;
 	}
 	.card {
-		@apply mx-auto min-h-screen max-w-4xl rounded-lg bg-slate-200/30 p-2 shadow-md dark:bg-slate-700 dark:shadow-2xl;
+		@apply mx-auto min-h-screen max-w-4xl rounded-lg bg-slate-200/30 p-2 shadow-lg dark:bg-slate-700;
 	}
 	.body-div {
 		@apply flex flex-col space-x-0 space-y-4 px-5 md:space-y-12;
