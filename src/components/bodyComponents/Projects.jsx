@@ -5,7 +5,7 @@ function Projects() {
     <div className="card">
       <section id="projects">
         <h2>Projects</h2>
-        <div className="flex flex-col space-y-2 ml-5">
+        <div className="flex flex-col space-y-2 ml-10">
           <div>
             <b>
               BlogSite <br />

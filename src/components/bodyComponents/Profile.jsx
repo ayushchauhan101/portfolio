@@ -2,7 +2,7 @@ function Profile() {
 	return (
 		<section
 			id="profile"
-			className="card flex flex-col space-y-4 md:space-y-16"
+			className="card flex flex-col space-y-4"
 		>
 			<div>
 				<h2>About Me </h2>

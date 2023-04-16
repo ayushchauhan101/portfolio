@@ -59,7 +59,7 @@ const cloudfare = (
 function Footer() {
 	return (
 		<section id="footer">
-			<div className="mx-auto min-h-fit rounded-md  p-3 dark:bg-white/30">
+			<div className="mx-auto min-h-fit rounded-md p-3 dark:bg-white/30">
 				<div className="footer-list">
 					<FooterButton icon={cloudfare}>Cloudfare pages</FooterButton>
 					<div className="flex flex-col">
