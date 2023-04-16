@@ -12,12 +12,8 @@ function Header() {
 						<p className="text-center">Built on react + vite + tailwind</p>
 					</section>
 				</div>
-				{/* Mobile Menu */}
-				<div className="md:invisible">
-					<MobileMenuBar />
-				</div>
 				{/* Dropdown Menu */}
-				<div className="collapse md:visible">
+				<div>
 					<MenuBar />
 				</div>
 			</div>

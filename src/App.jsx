@@ -8,7 +8,7 @@ function App() {
 		// global container
 		<div className="main">
 			<div className="background">
-				<div className="m-2 mb-4 flex flex-col justify-between space-x-0 space-y-8 rounded-md p-1 md:m-8 md:mb-16 md:space-y-16 md:p-4">
+				<div className="website-container">
 					<Header />
 					<JumpTo />
 					<Body />
