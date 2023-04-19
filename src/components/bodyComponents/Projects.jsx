@@ -5,7 +5,7 @@ function Projects() {
 		<div className="card min-h-fit">
 			<section id="projects">
 				<h2>Projects</h2>
-				<div className="flex flex-row min-h-fit snap-x snap-mandatory items-center justify-between space-x-4 overflow-scroll p-4 leading-loose">
+				<div className="flex flex-row min-h-fit snap-x snap-mandatory items-center justify-between space-x-4 overflow-auto p-4 leading-loose">
 					<div className="h-full w-full shrink-0 snap-center">
 						<b> BlogSite </b> <br />
 						<ProjectLinks
